@@ -9,8 +9,7 @@ def find_values(dictionary_list):
     for dictionary in dictionary_list:  # Laço que acessa cada dicionário na lista de dicionários
         if "nome" in dictionary:  # Caso exista a chave 'nome', prossiga
             if dictionary["nome"] not in values_list:
-                # Caso o valor da chave 'nome' ainda não exista na lista de
-                # resultados:
+                # Caso o valor da chave 'nome' ainda não exista na lista de resultados:
                 # Insira na lista de resultados
                 values_list.append(dictionary["nome"])
             else:
