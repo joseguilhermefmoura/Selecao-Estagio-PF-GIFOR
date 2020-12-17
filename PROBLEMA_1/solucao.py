@@ -8,13 +8,14 @@ def find_values(dictionary_list):
 
     for dictionary in dictionary_list:  # Laço que acessa cada dicionário na lista de dicionários
         if "nome" in dictionary:  # Caso exista a chave 'nome', prossiga
-            # Caso o valor da chave 'nome' ainda não exista na lista de
-            # resultados:
             if dictionary["nome"] not in values_list:
+                # Caso o valor da chave 'nome' ainda não exista na lista de
+                # resultados:
                 # Insira na lista de resultados
                 values_list.append(dictionary["nome"])
             else:
-                print("Ops! O valor '{}' é uma duplicata!"  # Caso já tenha sido inserido, imprima no console:
+                # Caso já tenha sido inserido, imprima no console:
+                print("Ops! O valor '{}' é uma duplicata!"
                       .format(dictionary["nome"]))
                 print("Portanto, não foi armazenado.")
         else:
