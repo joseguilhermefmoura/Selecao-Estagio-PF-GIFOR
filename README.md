@@ -1,6 +1,6 @@
 # Seleção para o Estágio PF/GIFOR
 
-Este repositório contém as minhas soluções para o processo seletivo que participei para uma vaga de estágio na Polícia Federal, realizado no período que compreende <u>Dezembro de 2020</u> até <u>Janeiro de 2021</u>.
+Este repositório contém as minhas soluções para o processo seletivo que participei para uma vaga de estágio na Polícia Federal, realizado no período que compreende <u>Dezembro de 2020</u> até </u>Janeiro de 2021</u>.
 
 <hr>
 
@@ -12,7 +12,7 @@ Python é uma linguagem de alto nível, portanto sua sintaxe dispensa comentári
 
 Em razão disso, o código está repleto de comentários que podem parecer (e são) redundantes ao leitor que não é o recrutador.
 
-Também é pela mesma razão que existem dois códigos: para que fique claro ao recrutador meu raciocínio, sem pular nenhuma etapa (versão simples) e a versão *pythonic* com o menor número de linhas (porém legível) possível.
+Também é pela mesma razão que existem dois códigos: para que fique claro ao recrutador meu raciocínio, sem pular nenhuma etapa (versão simples) mas também demonstrar através da versão *pythonic* que sou capaz de resolver utilizando um menor número de linhas, mantendo a legibilidade.
 
 **IMPORTANTE:**
 
@@ -37,9 +37,11 @@ Também é pela mesma razão que existem dois códigos: para que fique claro ao 
 
 #### Perfil:
 
-Conhecimento básico de Python, Javascript, CSSS e HTML, cursando a partir do 3º semestre de ciências da computação, sistemas de informação, engenharia de software ou afins.
+Conhecimento básico de Python, Javascript, CSS e HTML, cursando a partir do 3º semestre de ciências da computação, sistemas de informação, engenharia de software ou afins.
 
 #### Carga horária:
 
 20 horas semanais.
+
+<hr>
 
