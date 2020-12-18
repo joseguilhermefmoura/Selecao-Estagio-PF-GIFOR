@@ -3,10 +3,10 @@ import operator
 
 
 def get_registers(csv_file):
-    """
+    '''
     Essa função lê um arquivo csv e retorna uma lista de registros (dicionários)
     O delimitador deve ser ';' e deve seguir o cabeçalho <Id;nome;telefone;idade>
-    """
+    '''
 
     # Inicializa uma lista vazia para guardar os registros (dicionários)
     registers_list = []
@@ -19,7 +19,7 @@ def get_registers(csv_file):
         registers_list.append(
             {'id': id_, 'name': name_, 'fone': fone_, 'age': age_})
 
-    # Retira o cabeçalho presente no arquivo ("Id;nome;telefone;idade")
+    # Retira o cabeçalho presente no arquivo ('Id;nome;telefone;idade')
     del registers_list[0]
 
     # Ordena a lista de dicionários pela chave 'name'
